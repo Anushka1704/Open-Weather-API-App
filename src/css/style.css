@@ -1,0 +1,70 @@
+/* for presentation only */
+
+body {
+	font: 16px Arial, Helvetica, sans-serif;
+	margin: 0;
+}
+.heading h1{
+    font-size:x-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: whitesmoke;
+	padding-left: 39%;
+	padding-top: 15%;
+}
+.value{
+	padding-top: 5%;
+	padding-left: 7%;
+}
+
+.submit{
+	padding-top: 5%;
+	padding-left: 16%;
+}
+
+input[type=text]:focus{
+  box-sizing: border-box;
+  border: 3px double lightsalmon;
+  background-color:#d5fffd;
+}
+
+input[type=text]:hover{
+ color: black;
+}
+
+input[type=button], input[type=submit], input[type=reset]{
+	background:linear-gradient(90deg,#ebfa61 0%,#f5970bc7 100%);
+	border:black;
+	color:rgb(116, 8, 8) ;
+	padding: 9px 10px;
+	text-decoration: none;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-width: medium;
+
+}
+
+input[type=button], input[type=submit]:hover{
+	background:linear-gradient(90deg,#b6e0eb 0%,#0e21cfc7 100%);
+	border-width: medium;
+}
+.weather-wrapper {
+	background:linear-gradient(90deg,#91fff9 0%,#f5970bc7 100%);
+	margin: 5% 0 5% 5%;
+	padding: 40px 5%;
+	float: left;
+	color: rgb(167, 125, 19);
+	width: 70%;
+	max-width: 400px;
+}
+
+strong {
+	color: rgb(71, 67, 67);
+}
+
+.capitalize {
+	text-transform: capitalize;
+}
+
+.hide {
+	display: none;
+}
